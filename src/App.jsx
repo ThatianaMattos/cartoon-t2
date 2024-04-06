@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./componentes/Header/Header.jsx";
-import Main from "./componentes/Main/Main.jsx";
-import Programacao from "./componentes/Programacao/Programacao.jsx"; // Import Programacao
+import Main from "./componentes/Main/Main.jsx";ent
+import Programacao from "./componentes/Programacao/Programacao.jsx"
 import Footer from "./componentes/Footer/Footer.jsx";
 import {createGlobalStyle} from "styled-components";
 
@@ -12,7 +12,7 @@ const GlobalStyle = createGlobalStyle`
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
-`; // Adicionado ponto e vírgula aqui
+`; // Added semicolon here
 
 function App() {
   // Import GlobalStyle component
@@ -23,6 +23,7 @@ function App() {
       <GlobalStyle /> {/* Apply global styles */}
       <Header /> {/* Display header */}
       <Main /> {/* Display main content */}
+      <Programacao /> {/* Display programacao */}
       <Footer /> {/* Display footer */}
     </>
   )
