@@ -20,10 +20,10 @@ function App() {
 
   return (
     <>
-      <GlobalStyle /> // Apply global styles
-      <Header /> // Display header
-      <Main /> // Display main content
-      <Footer /> // Display footer
+      <GlobalStyle /> {/* Apply global styles */}
+      <Header /> {/* Display header */}
+      <Main /> {/* Display main content */}
+      <Footer /> {/* Display footer */}
     </>
   )
 }
